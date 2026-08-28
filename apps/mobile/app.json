@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "WorkLink",
+    "slug": "worklink",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "worklink",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#2563EB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.worklink.app"
+    },
+    "android": {
+      "package": "com.worklink.app",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": ["expo-router"]
+  }
+}

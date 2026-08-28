@@ -1,0 +1,15 @@
+{
+  "name": "@worklink/state",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@worklink/constants": "0.1.0",
+    "@worklink/mock": "0.1.0",
+    "@worklink/types": "0.1.0",
+    "zustand": "^5.0.3"
+  }
+}

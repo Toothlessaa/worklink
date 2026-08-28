@@ -1,0 +1,23 @@
+{
+  "name": "worklink",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WorkLink — a skilled job marketplace connecting Clients with skilled Members (web + mobile UI prototype)",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "start": "npm run dev:web",
+    "dev:web": "npm run dev --workspace apps/web",
+    "build:web": "npm run build --workspace apps/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "start:mobile": "npm run start --workspace apps/mobile",
+    "android": "npm run android --workspace apps/mobile",
+    "ios": "npm run ios --workspace apps/mobile"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
